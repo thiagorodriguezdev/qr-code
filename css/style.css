@@ -1,0 +1,52 @@
+@import url(./reset.css);
+
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --color-white: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+.content {
+  border-radius: 2rem;
+  background: var(--color-white);
+  box-shadow: 0px 2.5rem 2.5rem 0px #0000000d;
+}
+
+.card {
+  width: 100%;
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.card .qr-code {
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.card .text {
+  max-width: 28.8rem;
+  padding-inline: 1.6rem;
+}
+
+.card .text h2 {
+  color: var(--color-slate-900);
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 1.6rem;
+}
+
+.card .text p {
+  color: var(--color-slate-500);
+  font-size: 1.5rem;
+  line-height: 140%; 
+  letter-spacing: 0.2px;
+  margin-bottom: 2.4rem;
+}
